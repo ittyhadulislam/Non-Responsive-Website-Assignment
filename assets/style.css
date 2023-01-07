@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&family=Varela+Round&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid rebeccapurple; */
+    font-family: 'Varela Round', sans-serif;
+}
+
+/* header part */
+
+.header {
+    display: flex;
+    height: 100vh;
+    background: url("./images/banner/banner3.png");
+    background-size: cover;
+    justify-content: end;
+}
+
+.header .header-content {
+    padding: 150px 170px;
+    text-align: right;
+}
+
+.header-title {
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 76px;
+    color: white;
+    padding-bottom: 24px;
+}
+
+.header-dispription {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: white;
+    padding-bottom: 32px;
+}
+
+.header-btn {
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+.header-btn a {
+    color: #005FAC;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 23px;
+}
+
+/* header part end */
+
+/* main part start */
+
+/* My failures of previous year start */
+
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.middle-section {
+    padding: 200px 0 100px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 87px;
+}
+
+.middle-section-img img {
+    width: 500px;
+    height: 600px;
+}
+
+.meddle-section-content {
+    padding-top: 60px;
+}
+
+.meddle-section-content .content-title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    padding-bottom: 24px;
+    color: #151414;
+}
+
+.meddle-section-content .content-discription {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+    padding-bottom: 16px;
+}
+
+.list-content {
+    overflow: hidden;
+    list-style: none;
+}
+
+.list-content .list-item {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+    padding-bottom: 8px;
+}
+
+.list-item i {
+    padding-top: 9px;
+    color: #16D887;
+    width: 24px;
+    height: 24px;
+}
+
+/* My failures of previous year end */
+
+/* my plan start */
+
+.plan-section-heading {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.plan-cards {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card {
+    text-align: center;
+}
+
+.card img {
+    width: 92.96px;
+    height: 92.96px;
+    padding-bottom: 20px;
+}
+
+.card .card-title {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 35px;
+    color: #151414;
+    padding-bottom: 10px;
+}
+
+.card .card-discription {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 29px;
+    color: #737272;
+}
+
+/* my plan end */
+
+/* appoinment section start */
+
+.appoinment-section {
+    background: url("./images/gradient1.png"), url("./images/watch.png");
+    background-size: contain;
+    height: 300px;
+    background-repeat: no-repeat;
+    display: flex;
+    margin-top: 130px;
+    /* padding-bottom: 130px; */
+}
+
+.appoinment-content {
+    padding: 55px 0 50px 64px;
+}
+
+.appoinment-content .appoinment-title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    padding-bottom: 24px;
+    color: white;
+}
+
+.appoinment-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+.appoinment-btn a {
+    color: #005FAC;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 23px;
+}
+
+/* appoinment section end */
+
+/* main part end */
+
+/* footer start */
+
+footer {
+    height: 577px;
+    background: #151414;
+}
+
+/* footer content start */
+
+.footer-section {
+    max-width: 1000px;
+    margin: 130px auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 150px;
+}
+
+.footer-content .footer-content-title {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #F8F8F8;
+    padding-bottom: 16px;
+}
+
+.footer-content .footer-content-discription {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: white;
+    padding-bottom: 24px;
+}
+
+.footer-content .email,
+.phone {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    padding-bottom: 16px;
+    color: #FFFFFF;
+}
+
+.footer-content .social-media-icon {
+    margin-right: 18px;
+    width: 35px;
+    height: 35px;
+}
+
+/* footer content end */
+
+/* subscribe form start */
+
+.subscribe h3 {
+    color: white;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 29px;
+    padding-bottom: 31px;
+}
+
+.subscribe input[type="email"] {
+    background-color: #151414;
+    color: white;
+    width: 300px;
+    height: 50px;
+    margin-bottom: 10px;
+    border: 1px solid white;
+    border-radius: 8px;
+    padding-left: 21px;
+}
+
+.subscribe input[type="submit"] {
+    background-color: #005FAC;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 23px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+/* subscribe form start */
+
+/* footer end */
